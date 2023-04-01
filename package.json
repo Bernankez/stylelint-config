@@ -13,7 +13,7 @@
     "lint": "eslint .",
     "fix": "eslint . --fix",
     "lint:style": "stylelint .",
-    "fix:style": "Stylelint . --fix",
+    "fix:style": "stylelint . --fix",
     "test": "pnpm -r run test",
     "prepare": "pnpm -r run stub",
     "release": "bumpp -r && pnpm -r publish"
