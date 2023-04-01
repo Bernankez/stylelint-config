@@ -10,5 +10,19 @@ module.exports = {
       "border-in-box-model": true,
       "empty-line-between-groups": false,
     }],
+
+    "indentation": 2,
+    "at-rule-no-unknown": [
+      true,
+      {
+        ignoreAtRules: [
+          "tailwind",
+          "layer",
+          "apply",
+          "variants",
+          "responsive",
+          "screen",
+        ],
+      }],
   },
 };
