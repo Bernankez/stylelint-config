@@ -26,7 +26,7 @@ importers:
   packages/stylelint-config:
     dependencies:
       '@bernankez/stylelint-config-vue':
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:../stylelint-config-vue
     devDependencies:
       stylelint:

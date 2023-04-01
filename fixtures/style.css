@@ -14,8 +14,8 @@
 /* Single-line comment */
 
 .class-foo:not(a, div) {
-  margin: 0;
   top: calc(100% - 2rem);
+  margin: 0;
 }
 
 /* Flush single line comment */
@@ -24,16 +24,16 @@
     /* Flush to parent comment */
     --offset: 0px;
 
+    left: calc(var(--offset) + 50%);
     color: #fff;
     font-family: Helvetica, "Arial Black", sans-serif;
-    left: calc(var(--offset) + 50%);
   }
 
   /* Flush nested single line comment */
   a::after {
     display: block;
-    content: "→";
     background-image: url("x.svg");
+    content: "→";
   }
 }
 
