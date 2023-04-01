@@ -1,0 +1,27 @@
+{
+  "name": "@bernankez/stylelint-config",
+  "version": "0.0.0",
+  "description": "Cole's Stylelint config",
+  "author": {
+    "name": "Cole",
+    "email": "bernankez@qq.com",
+    "url": "https://github.com/Bernankez/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Bernankez/stylelint-config",
+  "keywords": [
+    "stylelint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "stylelint": ">=15.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "stylelint": "^15.4.0"
+  }
+}

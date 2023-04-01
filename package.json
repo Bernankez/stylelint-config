@@ -1,0 +1,29 @@
+{
+  "name": "@bernankez/stylelint-config-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@8.0.0",
+  "author": {
+    "name": "Cole",
+    "email": "bernankez@qq.com",
+    "url": "https://github.com/Bernankez/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint . --fix",
+    "lint:style": "stylelint .",
+    "fix:style": "Stylelint . --fix",
+    "test": "pnpm -r run test",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@bernankez/eslint-config": "^0.3.0",
+    "@bernankez/stylelint-config": "workspace:*",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.37.0",
+    "stylelint": "^15.4.0",
+    "typescript": "^5.0.3"
+  }
+}
