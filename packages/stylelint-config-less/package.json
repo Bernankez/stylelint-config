@@ -1,5 +1,5 @@
 {
-  "name": "@bernankez/stylelint-config-basic",
+  "name": "@bernankez/stylelint-config-less",
   "version": "0.0.0",
   "description": "",
   "author": {
@@ -23,8 +23,7 @@
     "stylelint": ">=15.0.0"
   },
   "dependencies": {
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-order": "^6.0.3"
+    "@bernankez/stylelint-config-basic": "workspace:*"
   },
   "devDependencies": {
     "stylelint": "^15.4.0"

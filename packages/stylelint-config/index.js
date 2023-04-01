@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    "@bernankez/stylelint-config-basic",
+    "@bernankez/stylelint-config-vue",
   ],
 };
