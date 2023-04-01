@@ -19,8 +19,8 @@ module.exports = {
     LESS ? "@bernankez/stylelint-config-less" : null,
     // lint style in html-like
     "stylelint-config-html",
-  ],
-  overrides: {
+  ].filter(item => !!item),
+  overrides: [{
     files: ["*.vue", "**/*.vue"],
     rules: {
       "selector-pseudo-class-no-unknown": [
@@ -43,5 +43,5 @@ module.exports = {
         },
       ],
     },
-  },
+  }],
 };
