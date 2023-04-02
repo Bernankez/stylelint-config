@@ -12,8 +12,8 @@
   "scripts": {
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "lint:style": "stylelint .",
-    "fix:style": "stylelint . --fix",
+    "stylelint": "stylelint **/*.css",
+    "stylelint:fix": "stylelint **/*.css --fix",
     "test": "pnpm -r run test",
     "prepare": "pnpm -r run stub",
     "release": "bumpp -r && pnpm -r publish"
