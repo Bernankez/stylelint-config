@@ -42,8 +42,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3(stylelint@15.4.0)
       stylelint-stylistic:
-        specifier: ^0.1.1
-        version: 0.1.1(stylelint@15.4.0)
+        specifier: ^0.2.0
+        version: 0.2.0(stylelint@15.4.0)
     devDependencies:
       stylelint:
         specifier: ^15.4.0
@@ -4430,8 +4430,8 @@ packages:
       stylelint: 15.4.0
     dev: false
 
-  /stylelint-stylistic@0.1.1(stylelint@15.4.0):
-    resolution: {integrity: sha512-QBd7y4EHWmoxQnr1ZdJcv5DFKyBWF7zsQiBEzt9qY16H5d6HkoPiEQ1J07Z69bCbZBq6lkj6uP4vF6DkneqCvQ==}
+  /stylelint-stylistic@0.2.0(stylelint@15.4.0):
+    resolution: {integrity: sha512-ebHTd36mg68ukLVn4BK7E5IU4H7JFn4QZTVbShqxfNISh4uwoEB6K7Wp2K2BlO3NGAKStBEdH/fRjClSodJn3A==}
     engines: {node: '>=14.x'}
     peerDependencies:
       stylelint: ^15.0.0
