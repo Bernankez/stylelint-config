@@ -1,5 +1,8 @@
 module.exports = {
-  extends: "./standard",
+  extends: [
+    "./deprecated",
+    "./standard",
+  ],
   plugins: [
     "stylelint-order",
     "stylelint-config-rational-order/plugin",
@@ -39,7 +42,6 @@ module.exports = {
       "empty-line-between-groups": false,
     }],
 
-    "indentation": 2,
     "at-rule-no-unknown": [
       true,
       {
