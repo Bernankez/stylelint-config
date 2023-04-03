@@ -8,6 +8,7 @@ module.exports = {
     "stylelint-config-rational-order/plugin",
   ],
   ignoreFiles: [
+    "node_modules/**/*",
     "**/*.d.ts",
     "**/*.patch",
     "CHANGELOG.md",
