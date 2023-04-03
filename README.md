@@ -6,6 +6,7 @@
 
 ### Install
 
+You will need stylelint 15.0.0 or higher as a devDependency.
 ```bash
 pnpm add -D stylelint @bernankez/stylelint-config
 ```
