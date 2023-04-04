@@ -80,9 +80,9 @@ If you want to apply lint and auto-fix before every commit, you can add the foll
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
+    "*.{css,scss,less,vue}": "stylelint --fix",
     // if you are using ESLint also.
-    "*": "eslint --fix",
-    "*.{css,scss,less,vue}": "stylelint --fix"
+    "*": "eslint --fix"
   }
 }
 ```
