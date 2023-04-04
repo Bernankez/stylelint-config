@@ -78,7 +78,9 @@ If you want to apply lint and auto-fix before every commit, you can add the foll
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*": "stylelint --fix"
+    // if you are using ESLint also.
+    "*": "eslint --fix",
+    "*.{css,scss,less,vue}": "stylelint --fix"
   }
 }
 ```
@@ -89,6 +91,6 @@ and then
 pnpm add -D lint-staged simple-git-hooks
 ```
 
-### ESlint
+### ESLint
 
 It's recommended to use Stylelint with ESLint. Here's my [eslint-config](https://github.com/Bernankez/eslint-config).
