@@ -19,8 +19,8 @@ pnpm add -D stylelint @bernankez/stylelint-config
 }
 ```
 
-> It seems that the `ignoreFiles` in my stylelint-config is not having effect. You may add `.stylelintignore` manually.
-
+> **Note**: It seems that the `ignoreFiles` in my stylelint-config is not having effect. You may add `.stylelintignore` manually.
+>
 > see https://stackoverflow.com/questions/75498883/stylelint-ignorefiles-not-working-includes-the-ignored-files-paths-always
 
 ### Add script for package.json
