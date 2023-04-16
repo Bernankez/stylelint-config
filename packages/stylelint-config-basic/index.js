@@ -57,5 +57,14 @@ module.exports = {
           "screen",
         ],
       }],
+    /**
+     * @see https://github.com/WordPress/gutenberg/issues/28616#issuecomment-775221812
+     */
+    "selector-class-pattern": [
+      "^([a-z][a-z0-9]*)(-[a-z0-9]+)*((__([a-z][a-z0-9]*)(-[a-z0-9]+)*)?(--([a-z][a-z0-9]*)(-[a-z0-9]+)*)?)*$",
+      {
+        message: selector => `Expected class selector "${selector}" to be kebab-case`,
+      },
+    ],
   },
 };
