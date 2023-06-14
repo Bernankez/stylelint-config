@@ -24,6 +24,8 @@
   },
   "dependencies": {
     "@bernankez/stylelint-config-basic": "workspace:*",
+    "@bernankez/stylelint-config-less": "workspace:*",
+    "@bernankez/stylelint-config-scss": "workspace:*",
     "local-pkg": "^0.4.3",
     "stylelint-config-html": "^1.1.0"
   },

@@ -77,6 +77,12 @@ importers:
       '@bernankez/stylelint-config-basic':
         specifier: workspace:*
         version: link:../stylelint-config-basic
+      '@bernankez/stylelint-config-less':
+        specifier: workspace:*
+        version: link:../stylelint-config-less
+      '@bernankez/stylelint-config-scss':
+        specifier: workspace:*
+        version: link:../stylelint-config-scss
       local-pkg:
         specifier: ^0.4.3
         version: 0.4.3
