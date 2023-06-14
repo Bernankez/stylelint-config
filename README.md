@@ -70,6 +70,19 @@ Install [VS Code Stylelint extension](https://marketplace.visualstudio.com/items
 }
 ```
 
+### Using with CSS preprocessor
+
+If you want to support SCSS/SASS/LESS/SugarSS syntax, you need to install the corresponding module.
+
+- SCSS: [postcss-scss](https://github.com/postcss/postcss-scss)
+- SASS: [postcss-sass](https://github.com/aleshaoleg/postcss-sass)
+- LESS: [postcss-less](https://github.com/shellscape/postcss-less)
+- SugarSS: [sugarss](https://github.com/postcss/sugarss)
+- Stylus: [postcss-styl](https://github.com/ota-meshi/postcss-styl)
+
+> See https://github.com/ota-meshi/postcss-html#getting-started for latest updates.
+
+
 ### Lint Staged
 
 If you want to apply lint and auto-fix before every commit, you can add the following to your `package.json`:
