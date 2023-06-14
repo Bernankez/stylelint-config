@@ -30,8 +30,8 @@ For example:
 ```json
 {
   "scripts": {
-    "stylelint": "stylelint **/*.css",
-    "stylelint:fix": "stylelint **/*.css --fix"
+    "stylelint": "stylelint **/**/*.css",
+    "stylelint:fix": "stylelint **/**/*.css --fix"
   }
 }
 ```
@@ -41,8 +41,8 @@ To lint other file types, you need to add the file types manually to apply Style
 ```json
 {
   "scripts": {
-    "stylelint": "stylelint **/*.{css,vue}",
-    "stylelint:fix": "stylelint **/*.{css,vue} --fix"
+    "stylelint": "stylelint **/**/*.{css,vue}",
+    "stylelint:fix": "stylelint **/**/*.{css,vue} --fix"
   }
 }
 ```
