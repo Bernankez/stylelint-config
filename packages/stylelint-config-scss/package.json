@@ -20,6 +20,7 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
+    "postcss-scss": ">=4.0.0",
     "stylelint": ">=15.0.0"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "stylelint-scss": "^4.6.0"
   },
   "devDependencies": {
+    "postcss-scss": "^4.0.6",
     "stylelint": "^15.4.0"
   }
 }
