@@ -73,7 +73,7 @@ Install [VS Code Stylelint extension](https://marketplace.visualstudio.com/items
 ### Using with SCSS
 
 Set your `.stylelintrc.json` to:
-```
+```json
 {
   "extends": "@bernankez/stylelint-config/scss"
 }
