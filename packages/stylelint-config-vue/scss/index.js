@@ -1,7 +1,7 @@
-const vueBaseRules = require(".vue-base-rules");
+const vueBaseRules = require("../rules/vue");
 
 module.exports = {
-  extends: ["./base-configs"],
+  extends: ["../configs/base"],
   overrides: [
     {
       files: ["*.vue", "**/*.vue"],
