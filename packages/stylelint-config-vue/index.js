@@ -1,7 +1,7 @@
-const baseVueRules = require("./configs/vue");
+const vueBaseRules = require("./vue-base-rules");
 
 module.exports = {
-  extends: ["./configs/base"],
+  extends: ["./base-configs"],
   overrides: [
     {
       files: ["*.vue", "**/*.vue"],
@@ -9,7 +9,7 @@ module.exports = {
         "@bernankez/stylelint-config-basic",
         "stylelint-config-html",
       ],
-      rules: baseVueRules,
+      rules: vueBaseRules,
     },
   ],
 };

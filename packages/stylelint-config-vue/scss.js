@@ -1,7 +1,7 @@
-const baseVueRules = require("./rules/vue");
+const vueBaseRules = require(".vue-base-rules");
 
 module.exports = {
-  extends: ["./configs/base"],
+  extends: ["./base-configs"],
   overrides: [
     {
       files: ["*.vue", "**/*.vue"],
@@ -10,8 +10,8 @@ module.exports = {
         "stylelint-config-html",
       ],
       rules: {
-        ...baseVueRules,
-        ...(baseVueRules["function-no-unknown"] ? { "function-no-unknown": null } : {}),
+        ...vueBaseRules,
+        ...(vueBaseRules["function-no-unknown"] ? { "function-no-unknown": null } : {}),
       },
     },
   ],
