@@ -20,16 +20,19 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
+    "postcss-less": ">=6.0.0",
+    "postcss-scss": ">=4.0.0",
     "stylelint": ">=15.0.0"
   },
   "dependencies": {
     "@bernankez/stylelint-config-basic": "workspace:*",
     "@bernankez/stylelint-config-less": "workspace:*",
     "@bernankez/stylelint-config-scss": "workspace:*",
-    "local-pkg": "^0.4.3",
     "stylelint-config-html": "^1.1.0"
   },
   "devDependencies": {
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.6",
     "stylelint": "^15.4.0"
   }
 }

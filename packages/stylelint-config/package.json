@@ -14,7 +14,7 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "*.js"
   ],
   "peerDependencies": {
     "stylelint": ">=15.0.0"

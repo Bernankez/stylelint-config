@@ -7,6 +7,8 @@
 </script>
 
 <style lang="scss" scoped>
+@import "./valid";
+
 .my-class {
   display: flex;
   align-items: center;
