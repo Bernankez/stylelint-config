@@ -1,6 +1,6 @@
 # @bernankez/stylelint-config
 
-[![npm](https://img.shields.io/npm/v/@bernankez/stylelint-config?color=green&label=npm)](https://www.npmjs.com/package/@bernankez/stylelint-config)
+[![npm](https://img.shields.io/npm/v/@bernankez/stylelint-config?color=red&label=npm)](https://www.npmjs.com/package/@bernankez/stylelint-config)
 
 ## Usage
 
