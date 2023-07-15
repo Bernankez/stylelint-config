@@ -25,9 +25,9 @@
   "dependencies": {
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-order": "^6.0.3",
-    "stylelint-stylistic": "^0.2.0"
+    "stylelint-stylistic": "^0.4.3"
   },
   "devDependencies": {
-    "stylelint": "^15.4.0"
+    "stylelint": "^15.10.1"
   }
 }
